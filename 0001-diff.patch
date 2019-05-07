@@ -1,0 +1,45 @@
+From 4ebe869613a12fe0057f84030c1cdae2fc0d03d2 Mon Sep 17 00:00:00 2001
+From: Anthony <aaiello@cegid.com>
+Date: Tue, 7 May 2019 09:48:07 +0200
+Subject: [PATCH] diff
+
+---
+ README.md | 7 ++++++-
+ TEXT2.md  | 8 ++++++++
+ 2 files changed, 14 insertions(+), 1 deletion(-)
+ create mode 100644 TEXT2.md
+
+diff --git a/README.md b/README.md
+index 0cfd80e..3f932b5 100644
+--- a/README.md
++++ b/README.md
+@@ -1,3 +1,8 @@
+ # mon-depot2
+ 
+-MODIF1
+\ No newline at end of file
++MODIF1
++
++
++MODIF2
++
++MODIFBRANCH
+\ No newline at end of file
+diff --git a/TEXT2.md b/TEXT2.md
+new file mode 100644
+index 0000000..3f932b5
+--- /dev/null
++++ b/TEXT2.md
+@@ -0,0 +1,8 @@
++# mon-depot2
++
++MODIF1
++
++
++MODIF2
++
++MODIFBRANCH
+\ No newline at end of file
+-- 
+2.21.0.windows.1
+
